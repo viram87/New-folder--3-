@@ -15,6 +15,7 @@ input {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(206, 212, 218);
   padding-left: 12px;
+  padding-right: 70px;
   border-radius: 4px;
 }
 
@@ -60,4 +61,61 @@ input {
   padding-left: 4px;
   padding-right: 4px;
   border: 1px solid rgb(222, 226, 230);
+}
+
+.pagination-container {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination {
+  row-gap: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pagination li a {
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+
+.pagination li a:hover {
+  cursor: pointer;
+}
+
+.pagination .active a {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.warning{
+  color: red;
+  size: 12px;
+}
+
+.pagination-limit input{
+  width: 50px;
+  padding: 5px;
 }

@@ -8,7 +8,7 @@ export const getCountries = ({
   return axiosClient.get(
     "/cities?limit=" +
       limit +
-      "&currentOffset=" +
+      "&offset=" +
       currentOffset +
       "&namePrefix=" +
       namePrefix

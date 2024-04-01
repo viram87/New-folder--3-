@@ -1,6 +1,41 @@
-# Getting Started with Create React App
+# React Pagination with API Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that demonstrates pagination with API integration using React Paginate.
+
+## Description
+
+The application fetches data about countries from an API and displays it in a paginated table. It includes functionality for searching countries and changing the number of items displayed per page.
+
+## Features
+
+- Pagination of country data
+- Search functionality to filter countries
+- Dynamically changing the number of items displayed per page
+
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/viram87/pagination 
+```
+
+## Installation
+
+```
+cd your-repository
+npm install
+```
+
+## Usage 
+
+Set up environment variables:
+- Create a .env file in the root directory of the project.
+- Define the API base URL and any other necessary environment variables in the .env file. For example:
+
+```
+REACT_APP_API_KEY=your_env_key
+```
 
 ## Available Scripts
 
